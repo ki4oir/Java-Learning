@@ -1,2 +1,2 @@
 # Java-Learning
-For practising to write Java code
+For me to practice writing Java code
