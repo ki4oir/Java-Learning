@@ -1,0 +1,23 @@
+package inputdemo;
+
+import java.util.Scanner;
+
+
+public class InputDemo {
+	public static void main(String[] args) {
+		String name;
+		int age; 
+		Scanner input = new Scanner(System.in);
+		
+		System.out.println("What is your name?");
+		name = input.next();
+		
+		System.out.println("What is your age?");
+		age = input.nextInt();
+		
+		System.out.println("Hello " + name);
+		System.out.println("Your age is " + age);
+		
+	}
+
+}
